@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="260" viewBox="0 0 260 260" role="img" aria-labelledby="title desc">
+  <title id="title">Eman Kemuel B. Sy profile illustration</title>
+  <desc id="desc">A simple circular profile placeholder with the initials EKS.</desc>
+  <circle cx="130" cy="130" r="128" fill="#212529"/>
+  <circle cx="130" cy="100" r="48" fill="#f8f9fa"/>
+  <path d="M45 235c12-52 45-78 85-78s73 26 85 78" fill="#f8f9fa"/>
+  <text x="130" y="248" font-size="20" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif">EKS</text>
+</svg>
