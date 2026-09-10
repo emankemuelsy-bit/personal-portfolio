@@ -3,191 +3,311 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Personal portfolio of Eman Kemuel B. Sy">
   <title>Eman Kemuel B. Sy | Portfolio</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-        crossorigin="anonymous">
+        rel="stylesheet">
 </head>
 
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-      <div class="container">
-        <a class="navbar-brand fw-bold" href="#home">Eman Sy</a>
+<body class="bg-dark text-white">
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#portfolioNavbar" aria-controls="portfolioNavbar"
-                aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary sticky-top">
+    <div class="container py-2">
 
-        <div class="collapse navbar-collapse" id="portfolioNavbar">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-          </ul>
-        </div>
+      <a class="navbar-brand fw-bold text-warning" href="#home">
+        EMAN SY
+      </a>
+
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-  </header>
 
-  <main>
-    <section id="home" class="bg-light py-5">
-      <div class="container text-center py-5">
-        <h1 class="display-4 fw-bold">Eman Kemuel B. Sy</h1>
-        <p class="lead">Bachelor of Science in Information Systems Student</p>
-        <a class="btn btn-dark btn-lg" href="#projects">View My Projects</a>
-      </div>
-    </section>
-
-    <section id="about" class="py-5">
-      <div class="container">
-        <h2 class="text-center mb-4">About Me</h2>
-        <div class="row align-items-center g-4">
-          <div class="col-md-4 text-center">
-            <img src="profile.jpg"p
-                 class="img-fluid rounded-circle shadow"
-                 alt="Profile illustration for Eman Kemuel B. Sy"
-                 width="260" height="260">
-          </div>
-
-          <div class="col-md-8">
-            <p class="lead">
-              Hello! I am Eman, an Information Systems student who enjoys learning
-              programming, web development, databases, and technology.
-            </p>
-            <p>
-              I like building simple systems and improving my skills through school
-              projects and hands-on activities. My goal is to create useful and
-              user-friendly technology solutions.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="skills" class="bg-light py-5">
-      <div class="container text-center">
-        <h2 class="mb-4">Skills</h2>
-        <div class="d-flex flex-wrap justify-content-center gap-2">
-          <span class="badge text-bg-primary p-2">HTML</span>
-          <span class="badge text-bg-primary p-2">Bootstrap</span>
-          <span class="badge text-bg-secondary p-2">C#</span>
-          <span class="badge text-bg-secondary p-2">Java</span>
-          <span class="badge text-bg-success p-2">SQLite</span>
-          <span class="badge text-bg-dark p-2">Git</span>
-          <span class="badge text-bg-dark p-2">GitHub</span>
-          <span class="badge text-bg-info p-2">UI/UX Basics</span>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="py-5">
-      <div class="container">
-        <h2 class="text-center mb-4">Projects & Accomplishments</h2>
-
-        <div class="row g-4">
-          <div class="col-md-6 col-lg-4">
-            <article class="card h-100 shadow-sm">
-              <div class="card-body">
-                <h3 class="card-title h5">Student Information System</h3>
-                <p class="card-text">
-                  A school project for managing student information, users,
-                  subjects, grades, and enrollment.
-                </p>
-                <a class="btn btn-primary" href="projects/sis.html">View Project</a>
-              </div>
-            </article>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <article class="card h-100 shadow-sm">
-              <div class="card-body">
-                <h3 class="card-title h5">WasteVision</h3>
-                <p class="card-text">
-                  A capstone concept that uses camera-based waste recognition,
-                  analytics, and collection optimization.
-                </p>
-                <a class="btn btn-primary" href="projects/wastevision.html">View Project</a>
-              </div>
-            </article>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <article class="card h-100 shadow-sm">
-              <div class="card-body">
-                <h3 class="card-title h5">C# Console Exercises</h3>
-                <p class="card-text">
-                  Basic C# activities using input, variables, operators,
-                  Boolean values, strings, and calculations.
-                </p>
-                <a class="btn btn-primary" href="projects/csharp.html">View Project</a>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="bg-light py-5">
-      <div class="container">
-        <h2 class="text-center mb-4">Contact Me</h2>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-7">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name"
-                       name="name" placeholder="Your name" required>
-              </div>
-
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email"
-                       name="email" placeholder="name@example.com" required>
-              </div>
-
-              <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message"
-                          name="message" rows="4"
-                          placeholder="Write your message here..." required></textarea>
-              </div>
-
-              <button type="submit" class="btn btn-dark">Send Message</button>
-
-              <a class="btn btn-primary"
-                 href="https://www.linkedin.com/in/kemuel-sy-44b899435/"
-                 target="_blank" rel="noopener noreferrer">
-                LinkedIn
-              </a>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="bg-dark text-white text-center py-4">
-    <div class="container">
-      <p class="mb-2">&copy; 2026 Eman Kemuel B. Sy. All rights reserved.</p>
-      <a class="link-light me-3"
-         href="https://github.com/emankemuelsy-bit"
-         target="_blank" rel="noopener noreferrer">GitHub</a>
-      <a class="link-light"
-         href="https://www.linkedin.com/in/kemuel-sy-44b899435/"
-         target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </div>
-  </footer>
+  </nav>
+</header>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-          crossorigin="anonymous"></script>
+
+<main>
+
+  <!-- HOME -->
+  <section id="home" class="min-vh-100 d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center g-5">
+
+        <div class="col-lg-6 text-center text-lg-start">
+
+          <p class="fs-4 text-secondary mb-2">Hello, I am</p>
+
+          <h1 class="display-3 fw-bold">
+            Eman Kemuel B. Sy
+          </h1>
+
+          <h2 class="display-6 fw-bold text-warning mb-4">
+            Information Systems Student
+          </h2>
+
+          <p class="lead text-light">
+            I enjoy programming, web development, databases,
+            and creating simple technology solutions.
+          </p>
+
+          <div class="mt-4">
+            <a href="#projects"
+               class="btn btn-warning btn-lg me-2">
+              View Projects
+            </a>
+
+            <a href="https://www.linkedin.com/in/kemuel-sy-44b899435"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn btn-outline-light btn-lg">
+              LinkedIn
+            </a>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6 text-center">
+          <img src="profile.jpg"
+               class="img-fluid rounded-circle border border-warning border-5 shadow"
+               width="420"
+               height="420"
+               alt="Profile photo of Eman Kemuel B. Sy">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ABOUT -->
+  <section id="about" class="py-5 bg-black">
+    <div class="container py-5">
+
+      <h2 class="text-center text-warning fw-bold mb-4">
+        About Me
+      </h2>
+
+      <p class="lead text-center mx-auto">
+        Hello! I am Eman, a Bachelor of Science in Information
+        Systems student who enjoys learning programming,
+        web development, databases, and technology.
+        I like building simple systems and improving my skills
+        through school projects and hands-on activities.
+      </p>
+
+    </div>
+  </section>
+
+
+  <!-- SKILLS -->
+  <section id="skills" class="py-5">
+    <div class="container py-5">
+
+      <h2 class="text-center text-warning fw-bold mb-5">
+        Skills
+      </h2>
+
+      <div class="text-center">
+        <span class="badge bg-warning text-dark fs-5 m-2">HTML</span>
+        <span class="badge bg-warning text-dark fs-5 m-2">Bootstrap</span>
+        <span class="badge bg-warning text-dark fs-5 m-2">Java</span>
+        <span class="badge bg-warning text-dark fs-5 m-2">C#</span>
+        <span class="badge bg-warning text-dark fs-5 m-2">SQLite</span>
+        <span class="badge bg-warning text-dark fs-5 m-2">GitHub</span>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-5 bg-black">
+    <div class="container py-5">
+
+      <h2 class="text-center text-warning fw-bold mb-5">
+        My Projects
+      </h2>
+
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="card bg-dark text-white border-secondary h-100">
+            <div class="card-body">
+              <h3 class="card-title h4 text-warning">
+                Student Information System
+              </h3>
+
+              <p class="card-text">
+                A system designed to organize student records,
+                subjects, grades, accounts, and enrollment information.
+              </p>
+
+              <a href="projects/sis.html"
+                 class="btn btn-warning">
+                View Project
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="card bg-dark text-white border-secondary h-100">
+            <div class="card-body">
+              <h3 class="card-title h4 text-warning">
+                WasteVision
+              </h3>
+
+              <p class="card-text">
+                A capstone concept using camera-based waste recognition,
+                waste analytics, and collection optimization.
+              </p>
+
+              <a href="projects/wastevision.html"
+                 class="btn btn-warning">
+                View Project
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="card bg-dark text-white border-secondary h-100">
+            <div class="card-body">
+              <h3 class="card-title h4 text-warning">
+                C# Console Exercises
+              </h3>
+
+              <p class="card-text">
+                Beginner C# activities using input, variables,
+                mathematical operators, strings, and Boolean values.
+              </p>
+
+              <a href="projects/csharp.html"
+                 class="btn btn-warning">
+                View Project
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-5">
+    <div class="container py-5">
+
+      <h2 class="text-center text-warning fw-bold mb-5">
+        Contact Me
+      </h2>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+
+          <form>
+
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text"
+                     class="form-control"
+                     id="name"
+                     placeholder="Your name">
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email"
+                     class="form-control"
+                     id="email"
+                     placeholder="Your email">
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control"
+                        id="message"
+                        rows="4"
+                        placeholder="Your message"></textarea>
+            </div>
+
+            <button type="submit"
+                    class="btn btn-warning">
+              Send Message
+            </button>
+
+            <a href="https://www.linkedin.com/in/kemuel-sy-44b899435"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn btn-outline-light ms-2">
+              LinkedIn
+            </a>
+
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+
+<footer class="bg-black border-top border-secondary text-center py-4">
+
+  <p class="mb-2">
+    © 2026 Eman Kemuel B. Sy
+  </p>
+
+  <a href="https://github.com/emankemuelsy-bit"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="text-warning me-3">
+    GitHub
+  </a>
+
+  <a href="https://www.linkedin.com/in/kemuel-sy-44b899435"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="text-warning">
+    LinkedIn
+  </a>
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
